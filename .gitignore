@@ -6,3 +6,6 @@
 # airflow artifacts
 logs/*/
 
+# python artifacts
+**/*.pyc
+

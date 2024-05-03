@@ -25,6 +25,13 @@ at http://localhost:8080.
 Dags you're developing should be kept in the `dags/` folder as these will be
 mounted to the Airflow docker containers.
 
+If you're new to Airflow, have a good read of
+[Astronomer's Airflow concepts](https://docs.astronomer.io/learn/category/airflow-concepts)
+because it'll provide you a good understanding of Airflow's capabilities,
+and also provide some best practice guides. It's important to have a set of
+consistent best practice rules to follow, and best to use what's already written,
+this saves us time defining our own rules and ensures consistency across a codebase.
+
 ## Purpose
 
 The intention for this project is to serve as a quick way to initialise Airflow
@@ -47,6 +54,10 @@ for Airflow.
 
 ## Resources
 
+- [Astronomer Airflow concepts](https://docs.astronomer.io/learn/category/airflow-concepts)
+    - [Intro to Airflow DAGs](https://docs.astronomer.io/learn/dags)
+    - [DAG best practices](https://docs.astronomer.io/learn/dag-best-practices)
+    - [Manage Airflow code - project structure](https://docs.astronomer.io/learn/managing-airflow-code)
 - [Airflow docs: Running Airflow in Docker](https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html),
     in case you run into issues running this project.
 - [How to Deploy Airflow From Dev to Prod Like A BOSS](https://www.youtube.com/watch?v=kvsAwLLA9P4),
