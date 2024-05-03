@@ -1,0 +1,8 @@
+# virtual environments / environment variables
+**/venv/
+**/.env/
+**/.env
+
+# airflow artifacts
+logs/*/
+
