@@ -1,9 +1,9 @@
-hello:
-	echo "Hello world"
-
 init:
+	echo "AIRFLOW_UID=1000" > .env
 	docker compose up airflow-init
 
-run:
+up:
 	docker compose up
 
+down:
+	docker compose down --volumes --rmi all
